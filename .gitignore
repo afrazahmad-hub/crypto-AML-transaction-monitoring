@@ -1,0 +1,41 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw and generated data
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated artifacts
+artifacts/models/*
+!artifacts/models/.gitkeep
+
+artifacts/figures/*
+!artifacts/figures/.gitkeep
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
